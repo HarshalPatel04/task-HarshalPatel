@@ -1,17 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+1. npx create-next-app@latest
+2. npx shadcn@latest init
+3. npx shadcn@latest add dropdown-menu
+4. npx shadcn@latest add button
+5. npx shadcn@latest add input
+6. npm install lucide
+7. npm install recharts
+8. npm i @recharts/devtools
+9. npm i react-redux
+10. npm i @reduxjs/toolkit
+11. npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/dom
+12. npx create-jest
+13. npm i --D babel-jest ts-jest @babel/core @babel/preset-env
+
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
