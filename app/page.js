@@ -4,6 +4,7 @@ import Dashboard from "./dashboard/page";
 import Sidebar from "@/components/Sidebar";
 import { Provider } from "react-redux";
 import store from "@/utils/store";
+import React from "react";
 
 export default function Home() {
   return (
